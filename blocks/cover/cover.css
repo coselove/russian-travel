@@ -5,5 +5,13 @@
 
 .cover {
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.cover:hover .cover__overlay {
+  background-color: rgba(42, 44, 47, .8);
 }
 

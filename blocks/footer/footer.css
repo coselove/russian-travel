@@ -1,6 +1,7 @@
 @import url(./__link/footer__link.css);
 @import url(./__links/footer__links.css);
 @import url(./__copyright/footer__copyright.css);
+@import url(./__link-view/footer__link-view.css);
 
 .footer {
   margin: auto;
@@ -12,6 +13,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  margin-left: 48px;
 }
 
 @media screen and (max-width: 1279px) {
@@ -24,6 +26,7 @@
   .footer {
     max-width: 720px;
     padding-bottom: 72px;
+    margin-left: 24px;
   }
 }
 

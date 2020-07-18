@@ -2,9 +2,8 @@
   max-width: 560px;
   min-height: 152px;
   margin: 0;
-  position: absolute;
-  top: 245px;
-  left: 312px;
+  margin: auto;
+  padding-top: 245px;
   font-family: 'Inter', Arial, sans-serif;
   font-style: normal;
   font-weight: 900;
@@ -17,15 +16,13 @@
 
 @media screen and (max-width: 1279px) {
   .cover__title {
-    top: 195px;
-    left: 232px;
+    padding-top: 195px;
   }
 }
 
 @media screen and (max-width: 1023px) {
   .cover__title {
-    top: 115px;
-    left: 104px;
+    padding-top: 115px;
   }
 }
 
@@ -33,8 +30,7 @@
   .cover__title {
     max-width: 288px;
     min-height: 70px;
-    top: 33px;
-    left: 16px;
+    padding-top: 33px;
     font-size: 32px;
     line-height: 35px;
   }
