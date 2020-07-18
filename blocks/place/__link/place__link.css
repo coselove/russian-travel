@@ -1,0 +1,23 @@
+.place__link {
+  max-width: 456px;
+  width: 100%;
+  font-family: 'Inter', 'Helvetica', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+  opacity: 1;
+  transition: opacity 1s linear;
+}
+
+.place__link:hover {
+  color: orangered;
+  opacity: .3;
+}
+
+@media screen and (max-width: 1023px) {
+  .place__title {
+    max-width: 352px;
+    }
+  }
