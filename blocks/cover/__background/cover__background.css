@@ -1,9 +1,11 @@
 .cover__background {
-  max-width: 1184px;
-  min-height: 740px;
+  max-width: 100%;
+  min-height: 100%;
   background-image: url(../../../images/cover-trains.jpg);
   background-size: cover;
   background-position: center;
+  object-fit: cover;
+  object-position: top right;
   margin: auto;
   position: relative;
   top: 0;
@@ -15,7 +17,7 @@
   .cover__background {
     top: 0;
     left: 0;
-    max-width: 1024px;
+    max-width: 100%;
     min-height: 640px;
   }
 }
@@ -24,7 +26,7 @@
   .cover__background {
     top: 0;
     left: 0;
-    max-width: 768px;
+    max-width: 100%;
     min-height: 480px;
   }
 }
@@ -33,7 +35,9 @@
   .cover__background {
     top: 0;
     left: 0;
-    max-width: 320px;
+    max-width: 100%;
     min-height: 200px;
+    object-fit: contain;
+    object-position: top right;
   }
 }
