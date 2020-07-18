@@ -2,7 +2,7 @@
   max-width: 690px;
   width: 100%;
   color: #ffffff;
-  font-family: 'Inter', 'Helvetica', sans-serif;
+  font-family: 'Inter', 'Arial', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 12px;
@@ -14,13 +14,13 @@
 }
 
 @media screen and (max-width: 1023px) {
-  .intro {
+  .intro__reference-info {
   max-width: 720px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .intro {
-    max-width: 288px;
+  .intro__reference-info {
+  max-width: 288px;
   }
 }

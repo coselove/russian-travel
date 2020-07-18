@@ -20,8 +20,8 @@
   .cover__overlay {
     top: 0;
     left: 0;
-    width: 1024px;
-    height: 640px;
+    width: 100%;
+    height: 100%;
   }
 }
 
@@ -29,8 +29,8 @@
   .cover__overlay {
     top: 0;
     left: 0;
-    width: 768px;
-    height: 480px;
+    width: 100%;
+    height: 100%;
   }
 }
 
@@ -38,7 +38,7 @@
   .cover__overlay {
     top: 0;
     left: 0;
-    width: 320px;
-    height: 200px;
+    width: 100%;
+    height: 100%;
   }
 }
