@@ -4,12 +4,14 @@
 @import url(./__overlay/cover__overlay.css);
 
 .cover {
+  margin: 0 48px;
   max-width: 1184px;
   position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-content: center;
+  border: 1px solid blue;
 }
 
 .cover:hover .cover__overlay {
@@ -19,6 +21,7 @@
 @media screen and (max-width: 1279px) {
   .cover {
   max-width: 1024px;
+  margin: 0;
   }
 }
 
@@ -28,11 +31,8 @@
   }
 }
 
-@media screen and (max-width: 767px) {
-  .cover {
-  max-width: 320px;
-  }
+.cover:hover .cover__overlay {
+  background-color: rgba(42, 44, 47, .8);
 }
-
 
 

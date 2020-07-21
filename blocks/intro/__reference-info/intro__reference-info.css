@@ -11,26 +11,22 @@
   padding-top: 32px;
   padding-left: 0;
   margin: 0;
-  margin-left: 148px;
 }
 
 @media screen and (max-width: 1280px) {
   .intro__reference-info {
   max-width: 690px;
-  margin-left: 48px;
   }
 }
 
 @media screen and (max-width: 1024px) {
   .intro__reference-info {
   max-width: 720px;
-  margin-left: 24px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .intro__reference-info {
   max-width: 288px;
-  margin-left: 16px;
   }
 }

@@ -9,6 +9,7 @@
   left: 0;
   margin: auto;
   z-index: 1;
+  border: 1px solid blue;
 }
 
 @media screen and (max-width: 1279px) {

@@ -5,6 +5,7 @@
   font-size: 16px;
   line-height: 18px;
   margin-right: 18px;
+  border: 1px solid blue;
 }
 
 .footer__link:hover {

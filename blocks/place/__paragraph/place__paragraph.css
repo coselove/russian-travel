@@ -10,6 +10,7 @@
   grid-area: paragraph;
   justify-self: start;
   align-self: start;
+  border: 1px solid blue;
 }
 
 @media screen and (max-width: 1279px) {

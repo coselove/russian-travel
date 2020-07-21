@@ -19,6 +19,7 @@
   "header url"
   "image paragraph"
   "image paragraph";
+  border: 1px solid blue;
 }
 
 .place:last-of-type {
@@ -28,6 +29,8 @@
 @media screen and (max-width: 1279px) {
   .place {
     max-width: 928px;
+    column-gap: 32px;
+    row-gap: 48px;
   }
   
   .place:last-of-type {
@@ -38,6 +41,7 @@
 @media screen and (max-width: 1023px) {
   .place {
     max-width: 720px;
+    row-gap: 32px;
     padding-bottom: 72px;
   }
   
