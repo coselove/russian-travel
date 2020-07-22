@@ -1,7 +1,32 @@
 .place__paragraph-text {
   margin: 0;
+  border: 1px solid green;
+  
 }
 
 .place__paragraph-text:first-of-type {
-  margin-bottom: 24px;
+  padding-bottom: 24px;
+}
+
+@media screen and (max-width: 1279px) {
+  .place__paragraph {
+   
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .place__paragraph {
+ 
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .place__paragraph-text {
+    padding-bottom: 24px;
+    
+  }
+
+  .place__paragraph-text:last-of-type {
+    padding-bottom: 0;
+  }
 }

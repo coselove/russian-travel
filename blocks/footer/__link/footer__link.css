@@ -18,13 +18,13 @@
 
 @media screen and (max-width: 1279px) {
   .footer__link {
-    max-width: 928px;
+ 
     }
   }
   
   @media screen and (max-width: 1023px) {
     .footer__link {
-      max-width: 720px;
+  
       }
     }
   

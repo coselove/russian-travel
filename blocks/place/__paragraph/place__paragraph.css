@@ -1,6 +1,5 @@
 .place__paragraph {
-  max-width: 484px;
-  width: 100%;
+  max-width: 100%;
   font-family: 'Inter', 'Arial', sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -10,18 +9,18 @@
   grid-area: paragraph;
   justify-self: start;
   align-self: start;
-  border: 1px solid blue;
+
+  border: 1px solid yellow;
 }
 
 @media screen and (max-width: 1279px) {
   .place__paragraph {
-    max-width: 456px;
+   
   }
 }
 
 @media screen and (max-width: 1023px) {
   .place__paragraph {
-   max-width: 352px;
    font-size: 16px; 
    line-height: 26px;
   }
@@ -29,9 +28,8 @@
 
 @media screen and (max-width: 767px) {
   .place__paragraph {
-    max-width: 288px;
+    padding: 32px 16px 0 16px;
     font-size: 16px;
     line-height: 26px;
-    margin-left: 16px;
   }
 }

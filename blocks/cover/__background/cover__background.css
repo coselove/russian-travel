@@ -15,7 +15,6 @@
   .cover__background {
     top: 0;
     left: 0;
-    max-width: 100%;
     min-height: 640px;
   }
 }
@@ -24,7 +23,6 @@
   .cover__background {
     top: 0;
     left: 0;
-    max-width: 100%;
     min-height: 480px;
   }
 }
@@ -33,7 +31,6 @@
   .cover__background {
     top: 0;
     left: 0;
-    max-width: 100%;
     min-height: 200px;
   }
 }
