@@ -7,7 +7,7 @@
 @import url(./__paragraph-text/place__paragraph-text.css);
 
 .place {
-  max-width: 100%;
+  
   padding: 0 148px 80px 148px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -19,7 +19,6 @@
   "header url"
   "image paragraph"
   "image paragraph";
-  border: 1px solid blue;
 }
 
 .place:last-of-type {
@@ -51,7 +50,6 @@
 @media screen and (max-width: 767px) {
   .place {
     padding: 0 0 48px 0;
-    
     display: flex;
     flex-direction: column;
   }

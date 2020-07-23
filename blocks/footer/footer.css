@@ -9,13 +9,6 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  border: 1px solid yellow;
-}
-
-@media screen and (max-width: 1279px) {
-  .footer {
-  
-  }
 }
 
 @media screen and (max-width: 1023px) {

@@ -9,14 +9,6 @@
   grid-area: paragraph;
   justify-self: start;
   align-self: start;
-
-  border: 1px solid yellow;
-}
-
-@media screen and (max-width: 1279px) {
-  .place__paragraph {
-   
-  }
 }
 
 @media screen and (max-width: 1023px) {
