@@ -7,7 +7,6 @@
 @import url(./__paragraph-text/place__paragraph-text.css);
 
 .place {
-  
   padding: 0 148px 80px 148px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -50,8 +49,13 @@
 @media screen and (max-width: 767px) {
   .place {
     padding: 0 0 48px 0;
-    display: flex;
-    flex-direction: column;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    row-gap: 32px;
+    grid-template-areas: 
+    "header"
+    "image"
+    "paragraph";
   }
 
   .place:last-of-type {
